@@ -1,21 +1,16 @@
-# chaosantor
+# chaoser
 
 A simple go script to extract subdomains from https://chaos.projectdiscovery.io/ and save into output file or date-wise
 
-# To-DO
-
-- Runs automatically after specified period of time
-- Compares the result of the previous and the new output
-
 # Install
 ```
-go install github.com/computerauditor/chaosantor@latest
+go install github.com/computerauditor/chaoser@latest
 ```
 
 # Usage
 
 ```
-chaosantor [options]
+chaoser [options]
 ```
 
 # Options
@@ -26,7 +21,7 @@ chaosantor [options]
 
 # Example
 ```
-chaosantor -c 60 -o /path/to/my_output.txt
+chaoser -c 60 -o /path/to/my_output.txt
 ```
 
 # Credit
