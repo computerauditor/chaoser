@@ -9,7 +9,7 @@ A simple go script to extract subdomains from https://chaos.projectdiscovery.io/
 
 # Install
 ```
-go install github.com/computerauditor/chaosantor/@latest
+go install github.com/computerauditor/chaosantor@latest
 ```
 
 # Usage
@@ -36,5 +36,5 @@ chaosantor -c 60 -o /path/to/my_output.txt
 Link to the origional project:-
 
 ```
-https://github.com/rudSarkar/chaosextract/
+https://github.com/rudSarkar/chaosextract
 ```
