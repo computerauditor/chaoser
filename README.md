@@ -36,5 +36,5 @@ chaosantor -c 60 -o /path/to/my_output.txt
 Link to the origional project:-
 
 ```
-https://github.com/rudSarkar/chaosextract/blob/main/go.mod
+https://github.com/rudSarkar/chaosextract/
 ```
