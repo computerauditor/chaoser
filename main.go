@@ -42,9 +42,9 @@ func main() {
 
 	outputFileName := *outputFilePtr
 	if outputFileName == "" {
-		// Generate output file name based on current date and time
-		currentTime := time.Now().Format("02-01-2006_15-04-05")
-		outputFileName = "chaos-output-" + currentTime + ".txt"
+		// Generate output file name based on current date
+		currentDate := time.Now().Format("02-01-2006")
+		outputFileName = "chaos-output-" + currentDate + ".txt"
 	}
 
 	file, err := os.Create(outputFileName)
